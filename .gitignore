@@ -1,0 +1,61 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build / dist
+dist/
+build/
+out/
+coverage/
+.tmp/
+temp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Runtime
+*.pid
+*.seed
+
+# Cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Java
+*.class
+target/
+
+# Misc
+*.zip
+*.tar
+*.gz
+
+# Agents
+.agents
